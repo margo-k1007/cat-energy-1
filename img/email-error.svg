@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 13" width="17" height="13">
+	<defs>
+		<filter id="flt1"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1   0 0 0 0 0.51   0 0 0 0 0.51   0 0 0 1 0" /> </filter>
+		<image width="17" height="13" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNSAyNyIgd2lkdGg9IjM1IiBoZWlnaHQ9IjI3Ij4KCTxzdHlsZT4KCQl0c3BhbiB7IHdoaXRlLXNwYWNlOnByZSB9CgkJLnNocDAgeyBmaWxsOiAjMDAwMDAwIH0gCgk8L3N0eWxlPgoJPGcgaWQ9IlBhZ2UgMSI+CgkJPHBhdGggaWQ9IlBhdGggMSIgY2xhc3M9InNocDAiIGQ9Ik0wIC0wLjA4TDAgNC43MUwxNy43MSAxOS41TDM1LjQyIDQuNzFMMzUuNDIgLTAuMDhMMCAtMC4wOFpNMi45MiAzLjI1TDIuOTIgMi44M0wzMi41IDIuODNMMzIuNSAzLjI1TDE3LjcxIDE1LjU0TDIuOTIgMy4yNVpNMzIuNSAxMkwzMi41IDI0LjA4TDIuOTIgMjQuMDhMMi45MiAxMkwwIDEyTDAgMjdMMzUuNDIgMjdMMzUuNDIgMTJMMzIuNSAxMloiIC8+Cgk8L2c+Cjwvc3ZnPg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="mail.svg copy 3" style="filter: url(#flt1)" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+</svg>

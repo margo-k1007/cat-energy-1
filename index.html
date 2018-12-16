@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Energy</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&amp;subset=cyrillic" rel="stylesheet">  -->
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="home-page">
+    
+    <header id="main-header" class="main-header">
+
+        <navigation class="main-header__nav main-navigation">
+            <ul class="main-header__logo">
+                <li class="main-header__item">
+                    <a class="main-header__link">
+                        <span class="main-header__logo-icon"></span>
+                        <span class="main-header__logo-text"></span>
+                    </a>
+                </li>
+                <li class="main-header__item burger-menu">
+                    <a class="burger-menu__link burger-menu__link--open" href="#"></a>
+                </li>
+                <li class="main-header__item burger-menu">
+                        <a class="burger-menu__link burger-menu__link--close" href="#"></a>
+                </li>
+            </ul>
+            <ul class="main-header__menu main-menu">
+                <li class="main-menu__item">
+                    <a class="main-menu__link main-menu__link--current">Главная</a>
+                </li>
+                <li class="main-menu__item">
+                    <a href="catalog.html" class="main-menu__link">Каталог продукции</a>
+                </li>
+                <li class="main-menu__item">
+                    <a href="form.html" class="main-menu__link">Подбор программы</a>
+                </li>
+            </ul>
+        </navigation><!--main-header__nav-->  
+ 
+    </header><!--main-header-->
+
+    <main id="index-main" class="index-main">
+
+        <div class="subtitle">
+
+            <div class="subtitle__item subtitle__item--left">
+                <div class="subtitle__selection selection">
+                    <h1 class="selection__title">Функциональное питание для котов</h1>
+                    <p class="selection__slogan">Занялся собой? Займись котом!</p>
+                    <a class="selection__button button" href="form.html">Подобрать программу</a>
+                </div>
+            </div><!--subtitle_left-->
+            
+            <div class="subtitle__item subtitle__item--right">
+                <div class="subtitle__image">
+                    <img src="img/index-can.png" alt="Product" width="552" height="499">
+                </div>
+            </div><!--subtitle_right-->
+
+        </div><!--subtitle-->
+
+        <section id="catalogs" class="catalogs">
+
+            <h2 class="visuallyhidden">Каталоги</h2>
+
+            <div class="catalogs__catalog-slim catalog catalog--slim">
+                <div class="catalog__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 97" width="70" height="97">
+                        <defs>
+                            <filter id="flt1"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0   0 0 0 1 0" /> </filter>
+                            <image width="70" height="97" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDYgMjAyIiB3aWR0aD0iMTQ2IiBoZWlnaHQ9IjIwMiI+Cgk8c3R5bGU+CgkJdHNwYW4geyB3aGl0ZS1zcGFjZTpwcmUgfQoJCS5zaHAwIHsgZmlsbDogIzJiMmUzNCB9IAoJPC9zdHlsZT4KCTxnIGlkPSJQYWdlIDEiPgoJCTxwYXRoIGlkPSJQYXRoIDEiIGNsYXNzPSJzaHAwIiBkPSJNMTE0LjI2LC0wLjA4aC0wLjc5Yy0xLjQyLDAuNzMgLTIuMjcsMS45NiAtMi45OSwzLjMyYy0xLjIyLDIuMjggLTIuMDksNC43IC0yLjc0LDcuMTdjLTAuNDQsMS42OSAtMS4zNiwyLjQ5IC0zLjA5LDIuNzljLTQuODcsMC44NCAtOC40MiwzLjYgLTEwLjksNy44Yy0xLjU1LDIuNjIgLTIuNzUsNS4zOSAtMy44NCw4LjIyYy0yLjk3LDcuNjcgLTUuMjUsMTUuNTggLTguMDIsMjMuMzNjLTEuMzMsMy43IC0xLjM4LDMuNjUgLTUuMzUsMy42OWMtNC43MiwwLjA1IC00LjM5LC0wLjc0IC00LjQ2LDQuNDdjLTAuMDIsMS42NSAwLjUsMi40OCAyLjI1LDIuNGMwLjU0LC0wLjAzIDEuMzYsLTAuMjcgMS41NiwwLjQ1YzAuMTcsMC42IC0wLjUsMS4wMiAtMC45LDEuNDRjLTIuNDgsMi42MiAtNS42LDQuMTQgLTkuMDQsNS4wN2MtMy45NSwxLjA2IC03Ljk5LDEuODkgLTExLjg2LDMuMTljLTkuODgsMy4zMiAtMTkuMDQsNy45NCAtMjYuMTUsMTUuNzhjLTQuMzQsNC43OCAtNy4zMywxMC40NSAtOS44NywxNi4zNGMtNy43NCwxNy45MiAtMTEuMzYsMzYuODkgLTE0LjI1LDU2LjA0Yy0xLjM1LDguOTcgLTIuMywxNy45OSAtMy4wNCwyNy4wMmMtMC4zNyw0LjUxIC0wLjg1LDkuMDMgLTAuNzgsMTMuNTdoNjkuNDNjMC4yNSwtMC45NiAtMC4xNSwtMS44MiAtMC40OCwtMi42N2MtMS40MSwtMy42NSAtNC4zMSwtNS41NiAtNy45NywtNi40Yy0xLjQ1LC0wLjMzIC0xLjYzLC0wLjc3IC0wLjczLC0xLjljMS41MiwtMS45MyAyLjUzLC00LjE2IDMuMzEsLTYuNDdjMy40LC0xMC4wMSA0LjcxLC0yMC40NiA2LjM2LC0zMC44M2MxLjI1LC03LjkxIDMuMTIsLTE1LjU3IDcuMjQsLTIyLjU2YzMuMDUsLTUuMTYgNi44NiwtOS42NCAxMS42NiwtMTMuMjdjMS43MywtMS4zMSAxLjc5LC0xLjMxIDIuMDgsMC45MmMwLjIsMS40OSAwLjI1LDMuMDEgMC4zNCw0LjUxYzAuNiw5Ljg1IDAuNTUsMTkuNjkgLTAuMzYsMjkuNTJjLTAuNzEsNy42NiAtMC45OSwxNS4zMiAtMC4zMiwyMy4wMWMwLjc3LDguODYgMi40LDE3LjU2IDQuNjYsMjYuMTVoMjcuNzdjLTAuNjcsLTQuNTcgLTQuMzgsLTguMzkgLTguODMsLTkuMjVjLTIuNjcsLTAuNTIgLTUuMjcsLTAuMTcgLTcuODUsMC40MmMtMS4yNSwwLjI4IC0xLjc3LDAuMDYgLTEuODcsLTEuMzVjLTAuODIsLTExLjA4IC0wLjI2LC0yMi4wOSAyLC0zMi45NmMyLjYyLC0xMi41NSA1LjA4LC0yNS4xMyA2LjM5LC0zNy44OGMwLjU0LC01LjMgMi4xNSwtMTAuMDUgNC43NCwtMTQuNjRjMi40OSwtNC40MSA0LjY1LC05LjAxIDcuMSwtMTMuNDVjMS45MywtMy41MiAyLjMsLTcuMDggMC44NiwtMTAuODFjLTAuNTcsLTEuNDcgLTEuMSwtMi45NiAtMS44LC00LjM4Yy0xLjk5LC00LjA4IC00LjExLC04LjEgLTYuMDcsLTEyLjE5Yy0xLjAyLC0yLjExIC0wLjgxLC0yLjM0IDEuNDgsLTIuMzljMy40LC0wLjA3IDMuNCwtMC4wNyAzLjQ1LC0zLjQyYzAuMDEsLTAuNDYgLTAuMDEsLTAuOTIgMCwtMS4zOGMwLjAzLC0xLjQzIC0wLjUzLC0yLjIzIC0yLjExLC0yLjExYy0xLjA1LDAuMDggLTIuMTEsMCAtMy4xNywwLjAyYy0xLjQ0LDAuMDMgLTEuODYsLTAuNiAtMS41LC0xLjk5YzEuMjEsLTQuNzUgNS43OSwtOC42NCAxMC43LC05LjI0YzQuNjYsLTAuNTcgOS4yMywwLjA5IDEzLjc3LDAuOWMxLjM1LDAuMjQgMi4xLC0wLjA1IDIuNjEsLTEuMzNjMC44MywtMi4wOCAxLjc2LC00LjExIDIuNjgsLTYuMTVjMC4zOSwtMC44NSAwLjQyLC0xLjYgLTAuMTksLTIuMzljLTYuNjIsLTguNTUgLTEzLjg0LC0xNi40NiAtMjMuNjksLTIxLjQ3Yy0xLjAzLC0wLjUzIC0xLjYxLC0xLjIgLTEuODUsLTIuMzRjLTAuNjIsLTIuOTYgLTEuMzUsLTUuOSAtMi42NCwtOC42NmMtMC42OCwtMS40NSAtMS40NSwtMi44MSAtMi45MiwtMy42M3oiIC8+Cgk8L2c+Cjwvc3ZnPg=="/>
+                        </defs>
+                        <style>
+                            tspan { white-space:pre }
+                        </style>
+                        <use id="cat-slim.svg" style="filter: url(#flt1)" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+                    </svg>
+                </div>
+                <h2 class="catalog__title">Похудение</h2>
+                <p class="catalog__description">
+                    Ваш кот весит больше собаки и почти 
+                    утратил способность лазить по деревьям? Пора 
+                    на диету! Cat Energy Slim поможет вашему питомцу 
+                    сбросить лишний вес.
+                </p>
+                <a class="catalog__link" href="#">Каталог Slim</a>
+            </div><!--catalog-slim-->
+
+            <div class="catalogs__catalog-pro catalog catalog--pro">
+                <div class="catalog__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="56" viewBox="0 0 134 56">
+                        <image id="cat-pro.svg" width="134" height="56" xlink:href="data:img/png;base64,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"/>
+                    </svg>
+                </div>
+                <h2 class="catalog__title">Набор Массы</h2>
+                <p class="catalog__description">
+                    Заработать авторитет среди дворовых 
+                    котов и даже собак? Серия Cat Energy Pro 
+                    поможет вашему коту нарастить необходимые мышцы!
+                </p>
+                <a class="catalog__link" href="#">Каталог Pro</a>
+            </div><!--catalog-pro-->
+
+        </section><!--catalogs-->
+
+        <section id="advantages" class="advantages">
+ 
+            <h2 class="advantages__title">Как это работает</h2>
+
+            <div class="advantages__inner">
+                <div class="advantages__item">
+                    <div class="advantages__icon advantages__icon--number-one">
+                            <!-- <img src="" alt="" width="" height=""> -->
+                    </div>
+                    <p class="advantages__description">
+                        Функциональное питание содержит 
+                        только полезные питательные вещества.
+                    </p>
+                </div><!--advantages__item-->
+                
+                <div class="advantages__item">
+                    <div class="advantages__icon advantages__icon--number-two">
+                            <!-- <img src="" alt="" width="" height=""> -->
+                    </div>
+                    <p class="advantages__description">
+                        Выпускается в виде порошка, который нужно 
+                        лишь залить кипятком и готово.
+                    </p>
+                </div><!--advantages__item-->
+                
+                <div class="advantages__item">
+                    <div class="advantages__icon advantages__icon--number-three">
+                            <!-- <img src="" alt="" width="" height=""> -->
+                    </div>
+                    <p class="advantages__description">
+                        Замените один-два приема обычной еды на наше фунцкциональное питание.
+                    </p>
+                </div><!--advantages__item-->
+                
+                <div class="advantages__item">
+                    <div class="advantages__icon advantages__icon--number-four">
+                            <!-- <img src="" alt="" width="" height=""> -->
+                    </div>
+                    <p class="advantages__description">
+                        Уже через месяц наслаждайтесь изменениями к лучшему 
+                        вашего питомца!
+                    </p>
+                </div><!--advantages__item-->
+            </div>
+
+        </section><!--advantages-->
+
+        <section id="example" class="example">
+
+            <h2 class="example__title">Живой пример</h2>
+            <div class="example__content example__content--left">
+                <p class="example__text">
+                    Борис сбросил 5 кг за 2 месяца, просто заменив свой 
+                    обычный корм на Cat Energy Slim. Отличный результат 
+                    без изнуряющих тренировок! При этом он не менял своих 
+                    привычек и по-прежнему спит по 16 часов в день.
+                </p>
+                <div class="example__weight">
+                    <p class="example__num">5 кг</p>
+                    <span class="example__label">снижение веса</span>
+                </div>
+                <div class="example__time">
+                    <p class="example__num">60 дней</p>
+                    <span class="example__label">затрачено времени</span>
+                </div>
+                <div class="example__costs">
+                    <span class="example__cost">Затраты на питание: </span>
+                    <span class="example__amount">15 000 руб.</span>
+                </div>
+            </div>
+
+            <div class="example__content example__content--right">
+                <div class="example__image example__image--left">
+                    <picture>
+                        <source media="(max-width: 320px)" srcset="img/before-mobile.png">
+                        <img src="img/before-desktop.png" alt="before">
+                    </picture>
+                </div>
+                <div class="example__image example__image--right">
+                    <picture>
+                        <source media="(max-width: 320px)" srcset="img/after-mobile.png">
+                        <img src="img/after-desktop.png" alt="after">
+                    </picture>
+                </div>
+                <div class="example__toggle toggle">
+                    <span class="toggle__label">Было</span>
+                    <div class="toggle__scale">
+                        <div class="toggle__control"></div>
+                    </div>
+                    <span class="toggle__label">Стало</span>
+                </div>
+            </div>
+            
+        </section><!--example-->
+
+    </main><!--index-main-->
+    
+    <footer id="main-footer" class="main-footer">
+
+        <div class="main-footer__map">
+            <div class="main-footer__contacts"> 
+                <div class="main-footer__invite">Приглашаем  к сотрудничеству  дилеров!</div>
+                <div class="main-footer__adress">ул. Большая Конюшенная, д. 19/8<br>
+                    <p></p>
+                    Санкт-Петербург</div>
+            </div>
+        </div><!--main-footer__map-->
+
+        <div class="main-footer__row">
+            
+            <div class="main-footer__logo">
+                <a href="#" class="main-footer__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="24" viewBox="0 0 128 24">
+                        <image id="footer-logo.svg" width="128" height="24" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAYCAMAAAAF1QXXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACfFBMVEUAAAAREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREAAAAv9+PPAAAA0nRSTlMAFH/I8vzmr1ABk8AahDyQMCNgGLR4pn47QJjE0MWgVAKKFZc06QTtSrCNgCDwyyifCZutBtt8HXno7grcw+ScuPoMdrnRSMddWvSnyuwHTGQvbwhyS/7zCwUZ+Q+sawPUONYhhzdEZ7OUX6vgPVdlu6VsTbeWYvckcNoxqHujffEO+xJb2HVoOf2PwYGxU2Zp4b3nVc0Wv0brXlmMnSW1H2pHibbdRSaeoqSS0hxucRcp3s+GbeMT+EOZ0y1BEKH2Mis+ur4szswqspqCWHoeT05/DP9mAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAABF1JREFUSMeNlotfVFUQx4eQV3driVBDl9uqkOKumkmWgASoPNbasHJTjDKMzDIJCw01H4QoUZZhEkXaw8oSs8jMsrKXPexlv7+omXPu3Uf37n7ufD575syc13fvmTPnEFHWVdmTkJObl19AWq42RHxcu8ZIyLVWK/ltTyEVGsZ1yldkGNcTFVsNxUSTlZ4y9QZ7VMm06YFS88YgV2eYph410zRnEZWVw5K8m3Tf2cqaw7UKJCTfnsqwPSVUAsxVvhAQJppnNcwjMu1O8xdIe/BmyzQWEt0CTNbYwCKqvDWxxmLlvk0bt2cAWBIQKROAquoUgBppWKoAav131NUDuQ3cvownqFm+gssZRI1Ak5opD2imFpk8svJOUXdFxX23XnBlBoCQ/V3Z35oCUGK1MIDBahW77iG6twq4j83VMdy/htZWIdbGVjSCdQ9Qu0z+ID20XvTDMnaxXrCDqxsKC1ulXhsOh6vTAKzIBECPABwRnUC5irBs4FEi3o+NbMwBHiOqkQXKiDaJflw6PaEBcqLxNbCZkuR/AHgyE8AWYD1RF/CUcncDW4meBp5howfYRrRd5niWA150r3TaYX3znR4BdmUCyFeDnwN2Kzf/zT387fdi3T4qqEXf80RqrbCaQgM0xLgS4F+RR4A+XwaAfmA/HzzAVO6BQOAAq93AFtoJ1FEC4ICEbz87DrI96OfiBU8AQ8CLGQCmAS9x6rABLDkkMc5jXk4CiMsrbB+W4lVPAP5sDFemAyg4Ui8R7gBYGMHeytcweNQNYBbbI69zMZoeIGCyZGmAN4A3EwB13DCmASKBoWEeu6PaCUC7OP6sv+gAaGL7rWPibUsLYA8SgOgoSlMz4WZKyoTH3yYXAD4co8A7bgDBiKTEykEu300LoDKhTwPQe3xgUjLhCQ3wvt/P+ecDigOoqTRJgxy+mM8N4EOxW+gwl8s8xQBtiOGkWwxUEH0EjLkC0CKuLSU3gCNid9IIlx97A6BibD/lDtAMjCcATvf2TrEB+HjikxQAOw+ohHSmqMlOsh4AVgOz3QE+5bG+5Bgosiv7eA8+cwUoTlw/fWu9AQQnrDkcAPS5Tu9zHQDSV393iTkcIzor+guic0kX4CpvADSQFoBTYDerqUC7cvc6AcZl8EF1MwD99KWoc4YxX3SzR4Cs8+kAvuLjFiTiXDGk3JucAF/LAmep4ILob+hbaye+Ez3mEYAupgOIfg/8QPQjv5JkP6nDCfCT+tilHVJOBOmMaDm7S1gv9wrQmQ6ATuinFV/6A6w2wglAPyf2vMvKYKfZfYn1cDqA/RUiv8QB6FcbYLo0dCcAeNNHdPCh4/g4zv/mBGi7YK9/kR8tcg9PEvcp8RzNlIr1o1QDbHN5lCqA34H6NXwrWal5a48TgKJdl3MHc3LbG8X4gy+TP6XSKPcNP1QWmNb1EpekZzk3tihf9Um5m5Ke5fmh0F+q5e9Q6B/RVy5PlF+6Qv+arXqWHnWbEf0Hq2TCskQLdeIAAAAASUVORK5CYII="/>
+                    </svg>
+                </a>
+            </div><!--main-footer__logo-->
+            
+            <div class="main-footer__socials socials">
+                <ul class="socials__list">
+                    <li class="socials__item">
+                        <a class="socials__link socials__link--vk" href="#">Вконтакте</a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link socials__link--inst" href="#">Инстаграм</a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link socials__link--fb" href="#">Фейсбук</a>
+                    </li>
+                </ul>
+            </div><!--socials-->
+            
+            <div class="main-footer__developed">
+                <a class="main-footer__link" href="#">
+                    <span>HTML Academy</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="34" viewBox="0 0 27 34">
+                        <image id="htmlacademy.svg" width="27" height="34" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAiCAMAAACZf1ICAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAANlBMVEUAAABmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmYAAAAotzoVAAAAEHRSTlMAEEBwgJ+/3++PYCBQMM+vN5sNjQAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAEySURBVCjPdZPrtoQgCIUVEdEa5f2f9iBeapoOP7LVB7i55JxzHiBgJJJuRBEDgNfvjpK8WyJnJxNlLAAOoGAmYvuqDA73awcYc+/2YCWd/7BPF0rHC/NRBI+sD/9kgUeIBnP5YlBlX3Umoc9mls5fKpAl+sGQt4J1ROFg7ErnKE6qlxijKx0K43ytI86uHiyQJOhxacSpkjxDSWJI0qBp/NCpyWdNp4pArX/r7I3kkZgo2ITpVnsL2XzVp/4woaLNCj6Pmd8ZaP058N6HO6Naugp8YydLK1Xq3CtTvWekFzGupKNaY35NPZ3p6pI3lsrcFl7pbHWUqcLtmlfz+ur0rh9NroYuH5E2ptWbvnLN3DaMvQVSYU91D3FtgTXU2/n8Ccw/XvHfZqVzeP87NGG86/0DpCUXERAe2h8AAAAASUVORK5CYII="/>
+                    </svg>
+                </a>
+            </div><!--main-footer__link-->
+
+        </div><!--main-footer__row-->
+        
+    </footer><!--main-footer-->
+
+    <script src="js/main.js">
+    </script>
+        
+
+</body>
+</html>

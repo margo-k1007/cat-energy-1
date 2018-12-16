@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 34" width="27" height="34">
+	<defs>
+		<filter id="flt1"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.4   0 0 0 0 0.4   0 0 0 0 0.4   0 0 0 1 0" /> </filter>
+		<image width="27" height="34" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NyA3MiIgd2lkdGg9IjU3IiBoZWlnaHQ9IjcyIj4KCTxzdHlsZT4KCQl0c3BhbiB7IHdoaXRlLXNwYWNlOnByZSB9CgkJLnNocDAgeyBmaWxsOiAjMDAwMDAwIH0gCgk8L3N0eWxlPgoJPGcgaWQ9IlBhZ2UgMSI+CgkJPHBhdGggaWQ9IlBhdGggMSIgY2xhc3M9InNocDAiIGQ9Ik0yOC4wNyAwLjk4TDAgMy45MkwwIDU1LjNMMjguMDcgNzJMNTYuMDUgNTUuMzVMNTYuMTQgNTUuM0w1Ni4xNCAzLjkyTDI4LjM4IDEuMDFMMjguMDcgMC45OFpNNC4wMSA3LjUzTDI4LjA3IDUuMDFMNTIuMTMgNy41M0w1Mi4xMyAyNi4yNEw1Mi4xMiAyNi4yNEwyOC4xMSAxMi4wOUwyOC4xMSAxMS44N0wyNy45MyAxMS45OEwyNy43NSAxMS44NkwyNy43NSAxMi4wOUw0LjAxIDI2LjIyTDQuMDEgNy41M1pNNC4yNCAyOS4zNkwyNy45MyAxNS4xMkw1MS45MiAyOS4xTDQyLjU5IDM0LjYxTDI3LjgxIDI1LjgxTDI3Ljc5IDI4Ljc2TDQwLjA5IDM2LjA4TDM4LjI5IDM3LjEzTDI3LjgxIDMwLjlMMjcuNzkgMzMuODVMMzUuNzYgMzguNTlMMzQuMTMgMzkuNjhMMjcuODEgMzUuOTZMMjcuNzkgMzguOUwzMS42NSA0MS4xN0wyNy45IDQzLjQyTDQuMjQgMjkuMzZaTTQ1LjAzIDQ3LjE3TDQ1LjAxIDM2LjM4TDUyLjEzIDMyLjE0TDUyLjEzIDUzLjAyTDI4LjA3IDY3LjMzTDQuMDEgNTMuMDJMNC4wMSAzMi40OUwyNy43OCA0Ni42NEwyNy44MiA0OC44MkwxMS4yNyAzOC45N0wxMS4yNCA0MS45MkwyNy44NiA1MS45MUwyNy45IDU0LjE1TDExLjI5IDQ0LjI3TDExLjI2IDQ3LjIyTDI3Ljk3IDU3LjI3TDI4LjA3IDU3LjMyTDQ1LjAzIDQ3LjE3WiIgLz4KCTwvZz4KPC9zdmc+"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="htmlacademy.svg" style="filter: url(#flt1)" href="#img1" transform="matrix(1.002,0,0,0.997,0,0)"/>
+</svg>
